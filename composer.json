@@ -1,0 +1,22 @@
+{
+    "name": "pablo/tic-tac-toe-kata",
+    "autoload": {
+        "psr-4": {
+            "Pablo\\TicTacToeKata\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Pablo\\TicTacToeKata\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pablo",
+            "email": "povarg.pablo@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}
